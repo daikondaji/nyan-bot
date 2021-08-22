@@ -10,4 +10,4 @@
    }
    ```
 3. Run `pip install -r requirements.txt` to install discord.py and other packages required to run the project.
-4. Run `python3 main.py`
+4. Run `python3 main.py`.
