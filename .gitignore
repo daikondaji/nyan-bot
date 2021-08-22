@@ -1,4 +1,4 @@
-config.json
+token_config.json
 bot_env/
 __pycache__
 *.py[cod]

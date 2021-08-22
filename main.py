@@ -27,7 +27,7 @@ async def reload(ctx, ext):
 
 
 if __name__ == '__main__':
-    with open('config.json', 'r') as file:
+    with open('token_config.json', 'r') as file:
         data=file.read()
     config = json.loads(data)
 

@@ -12,7 +12,7 @@ class Soundboard(commands.Cog):
     def __init__(self, client):
         self.client = client
 
-        with open('config.json', 'r') as file:
+        with open('sounds_directory.json', 'r') as file:
             data = file.read()
         
         config = json.loads(data)
